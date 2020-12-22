@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eeeeee;
+    background: #242424;
+}
+
+.App {
+    background: #353535;
+    padding: 0.5rem;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 10px 0;
+}
+
+.todo-list {
+    background-color: #1d1d1d;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.todo-details {
+    position: relative;
+    background-color: #272727;
+    margin: .5rem auto;
+    padding: 1rem;
+}
+
+.todo-title {
+    text-align: center;
+    padding-bottom: 0.6rem;
+}
+
+.todo-desc {
+    color: #747474;
+}
+
+.todo-details:hover {
+    background: rgb(68, 68, 68);
+}
+
+.todo-list-empty {
+    text-align: center;
+    padding: 1rem;
+}
+
+.form-add-todo {
+    padding: 0.5rem;
+    margin: 1.5rem;
+    background-color: #747474;
+}
+
+.form-add-todo input {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.form-add-todo input:not(:last-child) { 
+    width: 50%;
+}
+
+.form-add-todo .btn-add-todo {
+    display: block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem auto;
+
+}
+
+.remove-todo {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.remove-todo:hover {
+    color: red;
+}
+
+.is-done-true {
+    background-color: rgb(75, 134, 75);
+}
